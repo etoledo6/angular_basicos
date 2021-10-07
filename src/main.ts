@@ -18,7 +18,7 @@ class Persona {
   constructor(
     public Nombre: string,
     public Apellidos: string = ""
-  ) {
+  ) { 
 
   }
 
@@ -50,3 +50,4 @@ const personaje: Heroe = new Heroe("Peter", "Parker", "Spiderman", "Aracnido");
 
 console.log(personaje);
 console.log(personaje.Info());
+//Fin
