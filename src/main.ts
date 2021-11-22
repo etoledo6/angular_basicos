@@ -37,9 +37,9 @@ class Heroe extends Persona {
   }
 
   Info(): string {
-    let valor = "";
-    valor = this.Nick + " es " + this.Nombre + " " + this.Apellidos;
-    return valor;
+     let valor = "";
+     valor = this.Nick + " es " + this.Nombre + " " + this.Apellidos;
+     return valor;
   }
 
 }
@@ -48,6 +48,6 @@ class Heroe extends Persona {
 
 const personaje: Heroe = new Heroe("Peter", "Parker", "Spiderman", "Aracnido");
 
-console.log(personaje);
-console.log(personaje.Info());
+//console.log(personaje);
+//console.log(personaje.Info());
 //Fin
